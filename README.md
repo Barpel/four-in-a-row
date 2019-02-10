@@ -1,4 +1,4 @@
-a demo can be found https://barpel.github.io/four-in-a-row/game
+a demo can be found https://barpel.github.io/four-in-a-row/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
