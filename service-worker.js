@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/four-in-a-row/./precache-manifest.b573b6599850cced97ab59a46a190f26.js"
+  "/four-in-a-row/precache-manifest.67d70e1e9407fb76746ce90875f9a41c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/four-in-a-row/./index.html", {
+workbox.routing.registerNavigationRoute("/four-in-a-row/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
