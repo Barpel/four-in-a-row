@@ -5,7 +5,7 @@ import './NavBar.scss';
 const NavBar = () => {
     return (
         <nav className="navbar">
-            <NavLink to="/">
+            <NavLink to="/game">
                 <h1>
                     <span className="circle"></span>
                     Four in <br />
@@ -13,7 +13,7 @@ const NavBar = () => {
             </NavLink>
             <ul>
                 <li>
-                    <NavLink to="/" exact activeClassName="active">Home</NavLink>
+                    <NavLink to="/game" exact activeClassName="active">Home</NavLink>
                 </li>
                 <li>
                     <NavLink to="/about" activeClassName="active">About</NavLink>

@@ -8,13 +8,13 @@
   position: relative;
   & > div {
     border-radius: 50%;
-    padding: 30px;
+    padding: 17px;
   }
   & > div.empty-cell {
     position: absolute;
     top: 5%;
     background-color: white;
-    transition: all .2s;
+    transition: all 0.2s;
   }
   & > div.empty-cell.transparent {
     opacity: 0;
@@ -36,5 +36,15 @@
   opacity: 0.75;
   & > div {
     transform: scale(0.95);
+  }
+}
+
+@media (min-width: 675px) {
+  .cell {
+    padding: 5px;
+    & > div {
+      border-radius: 50%;
+      padding: 30px;
+    }
   }
 }

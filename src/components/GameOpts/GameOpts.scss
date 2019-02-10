@@ -1,7 +1,7 @@
 @import "../../assets/variables.scss";
 @import "../../assets/animations.scss";
 .game-opts-container {
-  animation: fade-in .2s;
+  animation: fade-in 0.2s;
   min-height: 78vh;
   & > .game-mode-container {
     width: 50%;
@@ -41,12 +41,15 @@
     animation: slide-down 0.4s;
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 25%;
     margin-top: -5%;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     text-align: center;
+    &> label:nth-child(2) {
+      grid-row: 2;
+    }
     & > label {
       display: grid;
       grid-gap: 20px;
@@ -95,6 +98,40 @@
       cursor: pointer;
       transform: scale(0.98);
       opacity: 0.75;
+    }
+  }
+}
+
+@media (min-width: 675px) {
+  .game-opts-container {
+    min-height: 78vh;
+    & > .game-mode-container {
+      grid-template-columns: 1fr 1fr;
+      & > button {
+      }
+      
+      & > h2 {
+      }
+    }
+    & > .game-opts {
+      grid-template-columns: 1fr 1fr;
+      &>label:nth-child(2) {
+        grid-row: unset;
+      }
+      & > label {
+        & > h2 {
+        }
+        & > input[type="text"] {
+        }
+        input[type="color"] {
+        }
+        input[type="color"]::-webkit-color-swatch-wrapper {
+        }
+        input[type="color"]::-webkit-color-swatch {
+        }
+      }
+      & > button {
+      }
     }
   }
 }

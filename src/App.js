@@ -12,7 +12,7 @@ class App extends Component {
         <div className="App">
           <NavBar />
           <Switch>
-            <Route path="/" exact component={GamePage} />
+            <Route path="/game" component={GamePage} />
             <Route path="/about" component={AboutPage} />
           </Switch>
         </div>
