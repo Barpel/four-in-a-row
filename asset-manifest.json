@@ -1,13 +1,13 @@
 {
-  "main.css": "/four-in-a-row/static/css/main.0979ec81.chunk.css",
-  "main.js": "/four-in-a-row/static/js/main.1a310427.chunk.js",
-  "main.js.map": "/four-in-a-row/static/js/main.1a310427.chunk.js.map",
-  "static/js/1.8c1d90eb.chunk.js": "/four-in-a-row/static/js/1.8c1d90eb.chunk.js",
-  "static/js/1.8c1d90eb.chunk.js.map": "/four-in-a-row/static/js/1.8c1d90eb.chunk.js.map",
-  "runtime~main.js": "/four-in-a-row/static/js/runtime~main.223aa477.js",
-  "runtime~main.js.map": "/four-in-a-row/static/js/runtime~main.223aa477.js.map",
-  "static/css/main.0979ec81.chunk.css.map": "/four-in-a-row/static/css/main.0979ec81.chunk.css.map",
-  "index.html": "/four-in-a-row/index.html",
-  "precache-manifest.67d70e1e9407fb76746ce90875f9a41c.js": "/four-in-a-row/precache-manifest.67d70e1e9407fb76746ce90875f9a41c.js",
-  "service-worker.js": "/four-in-a-row/service-worker.js"
+  "main.css": "/four-in-a-row/game/static/css/main.9e5dcdf4.chunk.css",
+  "main.js": "/four-in-a-row/game/static/js/main.7464bafc.chunk.js",
+  "main.js.map": "/four-in-a-row/game/static/js/main.7464bafc.chunk.js.map",
+  "static/js/1.8c1d90eb.chunk.js": "/four-in-a-row/game/static/js/1.8c1d90eb.chunk.js",
+  "static/js/1.8c1d90eb.chunk.js.map": "/four-in-a-row/game/static/js/1.8c1d90eb.chunk.js.map",
+  "runtime~main.js": "/four-in-a-row/game/static/js/runtime~main.20b48eaf.js",
+  "runtime~main.js.map": "/four-in-a-row/game/static/js/runtime~main.20b48eaf.js.map",
+  "static/css/main.9e5dcdf4.chunk.css.map": "/four-in-a-row/game/static/css/main.9e5dcdf4.chunk.css.map",
+  "index.html": "/four-in-a-row/game/index.html",
+  "precache-manifest.14377b1cfc18f6ea8140cc3531daeb78.js": "/four-in-a-row/game/precache-manifest.14377b1cfc18f6ea8140cc3531daeb78.js",
+  "service-worker.js": "/four-in-a-row/game/service-worker.js"
 }
