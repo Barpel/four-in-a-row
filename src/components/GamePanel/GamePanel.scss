@@ -1,0 +1,53 @@
+@import "../../assets/animations.scss";
+@import "../../assets/variables.scss";
+.game-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  background-color: $base2Opaque;
+  width: 55%;
+  margin: 0 auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  animation: slide-down .4s .3s;
+  & > button {
+    position: absolute;
+    left: 10px;
+    min-height: 65px;
+    min-width: 65px;
+    bottom: 10px;
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: $base1;
+    color: white;
+    transition: all .3s;
+  }
+  & > button:hover {
+    cursor: pointer;
+    transform: scale(0.98);
+    background-color: darken($base1, 15);
+  }
+  & > h2 {
+    margin: 10px auto;
+    font-size: 3rem;
+  }
+  & > h3 {
+    grid-column: 1 / span 2;
+    justify-self: center;
+    font-size: 2rem;
+    text-align: center;
+    &>svg {
+        margin: 10px 0;
+        font-size: 4rem;
+    }
+  }
+  & > h1 {
+    animation: slide-down 0.4s;
+    grid-column: 1 / span 2;
+    justify-self: center;
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,40 @@
+@import "../../assets/variables.scss";
+@import "../../assets/animations.scss";
+.cell {
+  border: 1px solid $base2;
+  padding: 5px;
+  transition: all 0.3s;
+  background-color: $base2;
+  position: relative;
+  & > div {
+    border-radius: 50%;
+    padding: 30px;
+  }
+  & > div.empty-cell {
+    position: absolute;
+    top: 5%;
+    background-color: white;
+    transition: all .2s;
+  }
+  & > div.empty-cell.transparent {
+    opacity: 0;
+  }
+  & > div.empty-cell.shown {
+    opacity: 1;
+  }
+  & > div.marked {
+    animation: slide-down 0.4s;
+    opacity: 1;
+  }
+  div.unmarked {
+    opacity: 0;
+  }
+}
+
+.cell:hover {
+  cursor: pointer;
+  opacity: 0.75;
+  & > div {
+    transform: scale(0.95);
+  }
+}
