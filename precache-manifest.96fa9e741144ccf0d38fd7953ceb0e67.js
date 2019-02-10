@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/four-in-a-row/game/static/js/runtime~main.20b48eaf.js"
   },
   {
-    "revision": "2a21a62fd21e53998debca803562d880",
+    "revision": "41dfb106c329a34244ce51f801eb347c",
     "url": "/four-in-a-row/game/index.html"
   }
 ];
