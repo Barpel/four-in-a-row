@@ -2,7 +2,7 @@
   "name": "four-in-a-row",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://barpel.github.io/four-in-a-row/game",
+  "homepage": "https://barpel.github.io/four-in-a-row/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.14",
     "@fortawesome/free-brands-svg-icons": "^5.7.1",
